@@ -15,12 +15,20 @@ optimization engines applied to a €127M combined infrastructure portfolio.
 | Diversity Factor Engine | Capacity optimization across 3 facility types | 100MW scenarios | Power BI, Scenario Modeling |
 
 ## Repository Structure
-sql/ ├── 01_evm_metrics.sql — CPI, SPI, EAC, TCPI calculations ├── 02_procurement_risk_ranking.sql — Lead-time × cost exposure matrix └── 03_diversity_factor.sql — Stranded capital cascade
+sql/ 
+├── 01_evm_metrics.sql — CPI, SPI, EAC, TCPI calculations 
+├── 02_procurement_risk_ranking.sql — Lead-time × cost exposure matrix 
+└── 03_diversity_factor.sql — Stranded capital cascade
 
 python/ └── monte_carlo_engine.py — 10,000 iteration PERT simulation
 
-dashboards/ — Power BI dashboard screenshots docs/ — Methodology documentation
+dashboards/ — Power BI dashboard screenshots
+* ![Procurement Intelligence Dashboard](P01%20DF.png)
+* ![Monte Carlo SRA Dashboard](RQ1.jpg)
+* ![Diversity Factor Engine Summary](Monet%20RQ1.jpg)
+* ![Executive Summary](executive%20summary%20Piv.jpg)
 
+docs/ — Methodology documentation
 
 ## Standards & Methodology
 
