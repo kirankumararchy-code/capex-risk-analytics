@@ -15,4 +15,37 @@ optimization engines applied to a €127M combined infrastructure portfolio.
 | Diversity Factor Engine | Capacity optimization across 3 facility types | 100MW scenarios | Power BI, Scenario Modeling |
 
 ## Repository Structure
+sql/ ├── 01_evm_metrics.sql — CPI, SPI, EAC, TCPI calculations ├── 02_procurement_risk_ranking.sql — Lead-time × cost exposure matrix └── 03_diversity_factor.sql — Stranded capital cascade
+
+python/ └── monte_carlo_engine.py — 10,000 iteration PERT simulation
+
+dashboards/ — Power BI dashboard screenshots docs/ — Methodology documentation
+
+
+## Standards & Methodology
+
+- **AACE RP 57R-09** — Schedule Risk Analysis (Monte Carlo)
+- **ANSI/EIA-748-D** — Earned Value Management
+- **ICMS 3rd Edition** — International Construction Measurement Standard
+- **NEC 210.20 / IEC 60364** — Continuous load derating (80%)
+- **Uptime Institute / ASHRAE TC 9.9** — Diversity factor benchmarks
+
+## Cross-Industry Application
+
+This analytical framework applies to any industry managing
+high-scale capital programmes:
+
+- ⚡ Energy & Grid Infrastructure
+- 🏭 Pharmaceutical & Manufacturing CapEx
+- 🚛 Logistics Hub Development
+- 🏦 Financial Services Operational Risk
+- 🏗️ Industrial Construction & Engineering
+
+## Author
+
+**Kiran Kumar Srinivasan**
+CapEx & Operations Data Analyst | SQL + Python + Power BI
+Prague, Czech Republic
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/kiran-kumar-srinivasan-704674234/ )
 
