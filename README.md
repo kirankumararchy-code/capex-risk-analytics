@@ -20,13 +20,14 @@ sql/
 ├── 02_procurement_risk_ranking.sql — Lead-time × cost exposure matrix 
 └── 03_diversity_factor.sql — Stranded capital cascade
 
-python/ └── monte_carlo_engine.py — 10,000 iteration PERT simulation
+python/ 
+└── monte_carlo_engine.py — 10,000 iteration PERT simulation
 
 dashboards/ — Power BI dashboard screenshots
-* ![Procurement Intelligence Dashboard](P01%20DF.png)
-* ![Monte Carlo SRA Dashboard](RQ1.jpg)
-* ![Diversity Factor Engine Summary](Monet%20RQ1.jpg)
-* ![Executive Summary](executive%20summary%20Piv.jpg)
+* ![Diversity Factor Engine Summary](P01%20DF.png)
+* ![EVM Metrics Dashboard](RQ1.jpg)
+* ![Monte Carlo SRA Dashboard](Monet%20RQ1.jpg)
+* ![Procurement Intelligence Dashboard](executive%20summary%20Piv.jpg)
 
 docs/ — Methodology documentation
 
